@@ -1,6 +1,5 @@
 # Car-Number-Plate-Recognition
 
-## How To Run
 Project consists of two files
 1. Car number plate recognition.py 
     ANN is implemented using back-propagation algorithm. 
@@ -9,6 +8,14 @@ Project consists of two files
 
 Main function is defined in Car number plate recognition.py. In the filename variable defined in main, the image of the car whose number plate is to be detected is provided.
 The code uses a .jpg or .png file of the car provided. Code loads the image. Here image ‘input1.png’ is loaded. The original image is displayed upon loading in the program. In the image processing discussion below two images of number plates are considered as examples
+
+## How To Run
+1. run the file named Car Number Plate Recognition.py.
+2. it takes as input .png and .jpg files. ample files are in the folder.
+3. Folder trainData contains the dataset upon which the network is trained.
+4. upon running the code, a file cropped.jpg is generated.
+
+emaining explaination about the working of code and ANN is provided in Description.pdf
 
 ## Data sets
 The data set utilized for training consists of the fonts used in number plates. Some of this data from
